@@ -49,7 +49,8 @@
     "android:dev": "bash scripts/android-dev.sh",
     "emulator": "bash scripts/start-emulator.sh",
     "android:build": "expo run:android",
-    "ios": "expo start --ios",
+    "apk": "bash scripts/build-apk.sh",
+    "ios": "expo run:ios",
     "web": "expo start --web",
     "check": "bash scripts/check-connection.sh"
   },
